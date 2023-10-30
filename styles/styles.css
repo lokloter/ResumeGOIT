@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
 }
 
 /* Main styles */
@@ -8,7 +9,6 @@ body {
 .Main {
     display: flex;
     flex-direction: row-reverse;
-    background-color: F5F7FA;
     width: 1200px;
     margin: 0 auto;
 }
@@ -17,17 +17,46 @@ body {
 
 .Main-content {
     background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 105px 90px;
 }
 
 /* about styles */
 .about {
-    
+    margin-bottom: 40px;
+}
+
+.about-position {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about-name {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 400px;
 }
 
 /* projet styles */
 
 .projects {
-    
+    margin-bottom: 50px;
 
     /* margin: 100px 90px 300px 60px;
 
@@ -36,13 +65,53 @@ body {
     margin: 100px 50px; */
 }
 
-.project-title {
-    
+.tittle {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
 }
+
+.projects-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project-item {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.project, .projets-link {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projets-link {
+    margin-left: 10px;
+}
+
+.project-bracket {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
 /* work styles */
 
 .Work {
-    
+    margin-bottom: 45px;
 
     /* padding: 100px 40px 50px 20px;
 
@@ -51,11 +120,64 @@ body {
     padding: 50px 100px; */
 }
 
+.work-position {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.organization {
+    color: #FB6D3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.period {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.line {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.work-list-item {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
 /* Education styles */
 
 .Education {
 }
 
+.study {
+    color: #FB6D3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 /* Sidebar styles */
 
