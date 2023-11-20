@@ -138,22 +138,37 @@ body {
     line-height: normal;
 }
 
-.work-list {
+.Маса_Плутноу_ліст {
     padding: 0;
     margin-left: 15px;
 }
 
-.work-list-item {
+.узагальнення_ліст {
+    padding: 0;
+    margin-left: 15px;
+    list-style-type:  circle;
+}
+
+.ліст_текст {
     color: #595959;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
-/* Education styles */
+
+.img {
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, #31261A 100%);
+}
 
 .Цікаві_факти {
 
+}
+
+.Цікаві_факти_список{
+    padding: 0;
+    margin-left: 15px;
 }
 
 
@@ -220,7 +235,7 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    ine-height: 24px; 
+    line-height: 24px; 
     color: #49525F;
 }
 
