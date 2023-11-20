@@ -240,6 +240,7 @@ body {
 
 .супутники_ліст{
     color: #b68843;
+    list-style-type: square;
 }
 
 .Супутники_текст {
@@ -258,6 +259,7 @@ body {
     color: #FFF;
     padding: 0;
     margin-left: 17px;
+    list-style-type: square;
 }
 
 .Апарати_лист1 {
