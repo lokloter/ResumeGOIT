@@ -24,7 +24,7 @@ body {
 
 
 
-.заголовок {
+.title {
     color: #000;
     font-size: 45px;
     font-style: normal;
@@ -33,7 +33,7 @@ body {
     margin-bottom: 25px;
 }
 
-.опис {
+.description {
     color: #595959;
     font-size: 14px;
     font-style: normal;
@@ -42,11 +42,11 @@ body {
     width: 400px;
 }
 
-.Відомості {
+.data {
     margin-bottom: 45px;
 }
 
-.заголовок_відомості1 {
+.title_data {
     color: #000;
     font-size: 16px;
     font-style: normal;
@@ -55,7 +55,9 @@ body {
     margin-bottom: 10px;
 }
 
-.організація {
+
+
+.organization1 {
     color: #b68843;
     font-size: 20px;
     font-style: normal;
@@ -64,19 +66,27 @@ body {
 }
 
 
+.organization {
+    color: #b68843;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-.Маса_Плутноу_ліст {
+
+
+.mass_of_Pluto_list {
     padding: 0;
     margin-left: 15px;
 }
 
-.узагальнення_ліст {
+.generalization_list {
     padding: 0;
     margin-left: 15px;
     list-style-type:  circle;
 }
 
-.ліст_текст {
+.list_text {
     color: #595959;
     font-size: 14px;
     font-style: normal;
@@ -86,18 +96,17 @@ body {
 
 .img {
     border-radius: 16px;
-background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, #31261A 100%);
+    background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, #31261A 100%);
 }
 
-.Цікаві_факти {
+.Interesting_facts {
 
 }
 
-.Цікаві_факти_список{
+.Interesting_facts_list{
     padding: 0;
     margin-left: 15px;
 }
-
 
 .Sidebar {
     background-color: #1E2939;
@@ -111,50 +120,50 @@ background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 
 }
 
 
-.Супутники {
+.satellite {
     margin-left: 40px;
 }
 
 
-.Супутники_Заголовок {
+.satellite_title {
     color: #FFFFFF;
     font-family: Montserrat;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 27px;
     text-align: left;
     margin-bottom: 10px;
 }
-.Апарати_заголовок{
+.devices_title{
     color: #FFFFFF;
     font-family: Montserrat;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 27px;
     text-align: left;
     margin-bottom: 10px;
 }
 
-.ліст_супутники {
+.satellite_list {
     color: #FFF;
     padding: 0;
     margin-left: 17px;
 }
 
-.Цікаві_факти_ліст{
+.Interesting_facts_list1{
     color: #1E2939;
 }
 
-.Цікаві_факти_ліст_головне {
+.Interesting_facts_list_general {
     color: #b68843;
 }
 
-.супутники_ліст{
+.satellite_list1{
     color: #b68843;
     list-style-type: square;
 }
 
-.Супутники_текст {
+.satellite_text {
     color: #FFF;
     font-size: 14px;
     font-style: normal;
@@ -162,22 +171,22 @@ background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 
     line-height: 24px;
 }
 
-.Апарати {
+.devices {
     margin-left: 40px;
 }
 
-.Апарати_лист {
+.devices_list {
     color: #FFF;
     padding: 0;
     margin-left: 17px;
     list-style-type: square;
 }
 
-.Апарати_лист1 {
+.devices_list1 {
     color: #b68843;
 }
 
-.Апарати_текст {  
+.devices_text {  
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -185,7 +194,7 @@ background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 
     color: #FFF;
 }
 
-.посилання_зонд {
+.Link_zond {
     color: #FFF;
 }
 
@@ -197,7 +206,7 @@ background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 
     background-color: #3e2b1a;
 }
 
-.Навігація_Супутники {
+.navigation_satellite {
     color: #FFF;
     text-decoration: none;
 }
