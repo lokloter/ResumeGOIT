@@ -98,16 +98,6 @@ background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 
     margin-left: 15px;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
-}
-
-.gallery-item {
-  margin: 10px;
-}
 
 .Sidebar {
     background-color: #1E2939;
@@ -197,4 +187,17 @@ background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 
 
 .посилання_зонд {
     color: #FFF;
+}
+
+.a {
+    color: #FFF;
+    text-decoration: none;
+}
+.a.a:hover {
+    background-color: #3e2b1a;
+}
+
+.Навігація_Супутники {
+    color: #FFF;
+    text-decoration: none;
 }
